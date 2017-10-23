@@ -6,7 +6,7 @@ body {
   background-color: #262626;
   font-family: "Asap", sans-serif;
   color:#262626;
-  margin:0 10px;
+  margin:0 0px;
   font-size:16px;
 }
 
@@ -155,6 +155,10 @@ body {
 }
 .fa-instagram {
   background: #125688;
+  color: white;
+}
+.fa-github {
+  background: black;
   color: white;
 }
 .fa-snapchat-ghost {
