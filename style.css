@@ -1,0 +1,164 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #262626;
+  font-family: "Asap", sans-serif;
+  color:#262626;
+  margin:0 10px;
+  font-size:16px;
+}
+
+
+
+.button{
+  border: none; /* Remove borders */
+  padding: 14px 28px; /* Add some padding */
+  cursor: pointer;
+  background-color: #e7e7e7;
+  color: black;
+}
+
+.blurred-img{
+  opacity: 1;
+}
+
+.top{
+  font: 400 15px/1.8 "Lato", sans-serif;
+/*background: url(https://www.w3schools.com/howto/img_parallax.jpg);*/
+
+  background: url(https://image.jimcdn.com/app/cms/image/transf/none/path/s876b65503cedff05/image/id11f84c7fc2bdeba/version/1408899057/image.jpg);
+
+
+  min-height: 100%;
+
+  position: relative;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#footer{
+  background-color:#262626;
+  color: white;
+  text-align:center;
+  margin-bottom: 20px;
+}
+#footer a{
+  color:white;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.bottom{
+  background: url(https://image.jimcdn.com/app/cms/image/transf/none/path/s876b65503cedff05/image/i09caa9285a72cdc2/version/1430211540/image.jpg);
+  opacity: 0.6;
+  min-height: 500px;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+
+#demo {
+  width: 660px;
+  height:350px;
+  margin: 0 auto;
+  position:relative;
+}
+.box {
+  width:50px;
+  height:50px;
+  position:relative;
+  top:120px;
+  border-radius:6px;
+  margin-top:4px;
+  display:inline-block;
+  background-color:white;
+}
+.boxS {
+  background-color: #89c540;
+}
+.boxEmpty {
+  width:50px;
+  height:50px;
+  position:relative;
+  top:120px;
+  border-radius:6px;
+  margin-top:4px;
+  display:inline-block;
+  background-color: #262626;
+}
+.box span,
+.dot span {
+  display: block;
+  text-align: center;
+  height: 100%;
+  font-size: 26px;
+  padding-top: 12px;
+}
+.dot {
+  /*background-color: red;*/
+  color: red;
+  width: 50px;
+  height: 50px;
+  top: 135px;
+  left: -200px;
+  position: absolute;
+  opacity: 0;
+}
+
+/* CSS für Social-Media buttons */
+.fa {
+  padding: 20px;
+  font-size: 50px !important;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 25px 2px;
+  border-radius: 50%;
+  opacity: 0.6;
+}
+.fa:hover {
+    opacity: 1;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
